@@ -1,8 +1,21 @@
 NOT COVERED!
 Enum not taught-for reference,use gfg
-
+--------------------------------------------
 Scope of type of variables
 #1. Local variable -  We can Access these variable only within that block.
+                      Local variables don’t exist after method’s execution is over.
+
 #2  Instance Varable - We can access instance variables through object references.
+                       Access specified of member variables doesn’t effect scope of them within a class.
+                        Modifier      Package  Subclass  World
+
+                        public          Yes      Yes     Yes
+                        protected       Yes      Yes     No
+                        Default (no
+                        modifier)       Yes       No     No
+                        private         No        No     No
+                        
 #3. Static Variable -  Static Variables can be accessed directly using class name.
 
+#4 Reference Variable - this keyword is a reference variable. It is used to access current class instance variable, or  invoke or initiate 
+current class constructor. Also, It can be passed as an arguement in method. 
