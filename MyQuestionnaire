@@ -1,2 +1,8 @@
-
+NOT COVERED!
 Enum not taught-for reference,use gfg
+
+Scope of type of variables
+#1. Local variable -  We can Access these variable only within that block.
+#2  Instance Varable - We can access instance variables through object references.
+#3. Static Variable -  Static Variables can be accessed directly using class name.
+
