@@ -1,5 +1,6 @@
 NOT COVERED!
 Enum not taught-for reference,use gfg
+Enhanced Loop - refer gfg
 --------------------------------------------
 Scope of type of variables
 #1. Local variable -  We can Access these variable only within that block.
@@ -49,3 +50,20 @@ Test.x: 22
 t.x: 22
 t.y: 33
 y: 44
+
+
++When a method has same local variable as a member, this keyword can be used to reference the current class variable.
+
+For-Each Loop
+
+In the loop body, you can use the loop variable you created rather than using an indexed array element.
+Syntax:
+for (type var : array) 
+{ 
+    statements using var;
+}
+For Limitations - refer gfg
+
+Pitfalls in looping 
+1. Infinite Loop
+2. Out of Memory Error
